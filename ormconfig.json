@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5551,
+  "username": "budget",
+  "password": "budget",
+  "database": "budget",
+  "synchronize": false,
+  "logging": true,
+  "entities": ["src/models/*.model.ts"],
+  "migrations": ["src/database/migrations/*.ts"]
+}

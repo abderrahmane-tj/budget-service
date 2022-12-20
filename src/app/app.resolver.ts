@@ -1,4 +1,4 @@
-import { Account } from "./models/account.model"
+import { Account } from "./entity/account.entity"
 import { Query, Resolver } from "@nestjs/graphql"
 
 @Resolver(() => Account)
