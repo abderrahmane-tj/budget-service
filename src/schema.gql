@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Account {
+  balance: Float!
+  id: ID!
+  offBudget: Boolean!
+  title: String!
+  type: Int!
+}
+
+type Query {
+  account: Account!
+}
