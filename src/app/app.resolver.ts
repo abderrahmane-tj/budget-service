@@ -1,5 +1,12 @@
-import { Account } from "./entity/account.entity"
 import { Query, Resolver } from "@nestjs/graphql"
+
+class Account {
+  id: number
+  title: string
+  balance: number
+  type: number
+  offBudget: boolean
+}
 
 @Resolver(() => Account)
 export class AccountResolver {
